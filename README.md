@@ -73,14 +73,15 @@ This project is based on a design provided by Holberton School.
 ## 👤 Author
 
 **Your Name**
-* Github: [@yourusername](https://github.com/HusseinIslamEagle)
-* LinkedIn: [Your Profile](https://www.linkedin.com/in/husseinahmedabdelaziz/)
+* Github: (https://github.com/HusseinIslamEagle)
+* LinkedIn: (https://www.linkedin.com/in/husseinahmedabdelaziz/)
 
 ---
 
 <div align="center">
   <small>Made with ❤️ and a lot of ☕</small>
 </div>
+
 
 
 
