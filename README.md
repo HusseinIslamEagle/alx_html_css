@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://ibb.co/0VfCkzr1" alt="Smile School Logo" width="200" height="auto" />
+  <img src="https://github.com/HusseinIslamEagle/alx_html_css/blob/main/css_advanced/CSS%20Advanced/logo.png?raw=true" alt="Smile School Logo" width="200" height="auto" />
   <h1>😁 Smile School</h1>
   <p>
     <strong>A Pixel-Perfect Responsive Web Design Implementation</strong>
@@ -81,4 +81,5 @@ This project is based on a design provided by Holberton School.
 <div align="center">
   <small>Made with ❤️ and a lot of ☕</small>
 </div>
+
 
