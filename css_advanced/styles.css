@@ -1,0 +1,311 @@
+/* === GENERAL RESET & FONTS === */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white; /* Default text color */
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Coiny', cursive;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* الألوان المشتركة */
+.highlight { color: #C271FF; } /* اللون البنفسجي */
+
+/* الأزرار */
+.btn {
+    border: none;
+    border-radius: 30px;
+    padding: 14px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background-color: #C271FF;
+    color: white;
+}
+.btn-primary:hover { background-color: #b055ff; }
+
+.btn-secondary {
+    background-color: white;
+    color: #C271FF;
+}
+.btn-secondary:hover { background-color: #f0f0f0; }
+
+/* ================= HEADER ================= */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding-top: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 35px; /* ضبط حجم اللوجو */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.nav-links li a:hover { color: #C271FF; }
+
+/* ================= HERO SECTION ================= */
+.hero {
+    /* هنا حط صورة الخلفية بتاعتك */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("CSS Advanced/Object.png"); 
+    background-size: cover;
+    background-position: center;
+    min-height: 140vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* يفصل النص فوق والمحترفين تحت */
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 6rem;
+    margin-bottom: 10px;
+    line-height: 1;
+    margin-top: 0;
+}
+
+.subtitles span {
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.hero .btn { margin-top: 40px; }
+
+/* Pros Section (Bottom of Hero) */
+.pros-section {
+    text-align: center;
+}
+.pros-section h2 { font-size: 2rem; margin-bottom: 40px; font-weight: 300; }
+.pros-section h2 span { font-weight: bold; }
+
+.pros-grid {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.pro-card { text-align: center; width: 180px; }
+.pro-card img {
+    width: 130px; height: 130px; border-radius: 50%;
+    object-fit: cover; margin-bottom: 15px;
+}
+.pro-card h3 { font-size: 1.1rem; margin-bottom: 5px; }
+.pro-card p { font-size: 0.9rem; font-style: italic; opacity: 0.8; }
+
+
+/* ================= QUOTES SECTION ================= */
+.quotes {
+    background-color: #C271FF; /* الخلفية البنفسجي */
+    padding: 80px 0;
+    color: white;
+}
+
+.quote-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.quote-img img {
+    width: 160px; height: 160px; border-radius: 50%;
+    object-fit: cover;
+}
+
+.quote-text blockquote {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.quote-text h3 { margin-bottom: 5px; }
+.quote-text p { font-style: italic; }
+
+
+/* ================= VIDEOS LIST ================= */
+.videos {
+    padding: 80px 0;
+    color: #484848; /* لون النص في الخلفية البيضاء */
+    text-align: center;
+}
+
+.videos h2 { font-size: 2.2rem; margin-bottom: 60px; }
+
+.video-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.video-card {
+    width: 255px;
+    text-align: left;
+}
+
+.thumbnail {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.thumbnail img { width: 100%; height: 100%; object-fit: cover; }
+
+.thumbnail .play-icon {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px; height: 60px;
+    opacity: 0.8;
+}
+
+.video-card h3 { color: #484848; margin-bottom: 10px; font-size: 1.1rem; }
+.video-card .desc { color: #888; font-size: 0.9rem; margin-bottom: 15px; line-height: 1.4; }
+
+.video-card .author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.author img { width: 30px; height: 30px; border-radius: 50%; }
+.author h4 { color: #C271FF; font-size: 0.9rem; }
+
+.rating { display: flex; justify-content: space-between; align-items: center; }
+.stars { color: #C271FF; font-size: 0.8rem; }
+.time { color: #C271FF; font-weight: bold; font-size: 0.9rem; }
+
+
+/* ================= MEMBERSHIP ================= */
+.membership {
+    background-color: #071629; /* Dark Background */
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.membership h2 { font-size: 2.2rem; margin-bottom: 60px; font-weight: 300; }
+
+.membership-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.member-item { width: 220px; text-align: center; }
+.member-item img { width: 45px; margin-bottom: 20px; }
+.member-item h3 { margin-bottom: 10px; }
+.member-item p { opacity: 0.7; font-size: 0.9rem; line-height: 1.5; }
+
+
+/* ================= FAQ ================= */
+.faq {
+    padding: 80px 0;
+    background-color: white;
+    color: #484848;
+    text-align: center;
+}
+
+.faq h2 { font-size: 2.5rem; margin-bottom: 60px; }
+
+.faq-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.faq-col { width: 48%; }
+.faq-item { margin-bottom: 40px; }
+.faq-item h3 { font-size: 1.1rem; margin-bottom: 15px; }
+.faq-item p { color: #888; line-height: 1.6; font-size: 0.9rem; }
+
+
+/* ================= FOOTER ================= */
+.footer {
+    background-color: #071629;
+    padding: 50px 0 30px 0;
+    color: white;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+}
+
+.social-icons {
+    font-size: 1.5rem;
+}
+.social-icons i { margin-left: 20px; cursor: pointer; }
+
+.copyright {
+    opacity: 0.5;
+    font-size: 0.8rem;
+}
