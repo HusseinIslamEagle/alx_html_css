@@ -243,7 +243,7 @@ ul {
 }
 
 .our-results {
-    background: url('images/headphones_hero_1.jpg') no-repeat center center/cover;
+    background: url('images/headphones_hero_2.jpg') no-repeat center center/cover;
     position: relative;
     color: var(--text-light);
     text-align: center;
@@ -399,9 +399,11 @@ ul {
     }
 }
 
-
+/* ------------------------------------------------ */
+/* MOBILE STYLES: Left Icon + Push Down Content */
+/* ------------------------------------------------ */
 @media (max-width: 767px) {
-
+    /* 1. تفعيل الالتفاف عشان القائمة تنزل تحت */
     .navbar {
         flex-wrap: wrap;
     }
@@ -414,29 +416,31 @@ ul {
         display: flex !important;
     }
 
-
+    /* 2. تبديل الأماكن باستخدام order */
+    /* الأيقونة (رقم 1) هتيجي على الشمال */
     .menu-icon {
         order: 1; 
         align-self: center;
-        margin-right: auto; 
+        margin-right: auto; /* ده هيزق باقي العناصر لليمين */
     }
 
-    
+    /* اللوجو (رقم 2) هييجي على اليمين */
     .logo {
         order: 2;
     }
 
-   
+    /* 3. القائمة (رقم 3) هتنزل تحتهم وتزق المحتوى */
     .nav-links {
-        display: none; 
+        display: none; /* مخفية في البداية */
         order: 3;
-        width: 100%; 
+        width: 100%; /* تاخد العرض كامل */
         flex-direction: column;
         text-align: center;
         background-color: #071629;
         margin-top: 15px;
     }
 
+    /* لما الكلاس active يتضاف، القائمة تظهر وتزق اللي تحتها */
     .nav-links.active {
         display: flex !important;
     }
@@ -451,6 +455,7 @@ ul {
         color: #ffffff;
     }
 
+    /* تعديلات عامة للموبايل */
     .hero-header {
         min-height: 90vh;
         padding-top: 20px;
@@ -476,7 +481,7 @@ ul {
     }
 }
 
-
+/* حركة الأيقونة */
 .menu-icon.open div:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
