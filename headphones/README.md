@@ -1,7 +1,6 @@
 <div align="center">
-  <img src="images/logo_headphones.png" alt="Headphones Logo" width="500" height="auto" />
+  <img src="images/logo_headphones.png" alt="Headphones Logo" width="400" height="auto" />
 
-  <h1>Headphones Landing Page</h1>
 
   <p>
     <strong>A Pixel-Perfect Responsive Web Design Implementation</strong>
