@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/favicon.png" alt="Headphones Logo" width="100" height="auto" />
+  <img src="images/logo_headphones.png" alt="Headphones Logo" width="100" height="auto" />
 
   <h1>Headphones Landing Page</h1>
 
