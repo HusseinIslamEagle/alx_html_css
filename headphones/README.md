@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="https://github.com/HusseinIslamEagle/alx_html_css/blob/main/css_advanced/CSS%20Advanced/logo.png?raw=true" alt="Smile School Logo" width="200" height="auto" />
+  <img src="images/favicon.png" alt="Headphones Logo" width="100" height="auto" />
+
+  <h1>Headphones Landing Page</h1>
 
   <p>
     <strong>A Pixel-Perfect Responsive Web Design Implementation</strong>
@@ -8,38 +10,44 @@
   <p>
     <a href="#about-the-project">About</a> •
     <a href="#technologies">Technologies</a> •
-    <a href="#screenshots">Screenshots</a> •
+    <a href="#features">Features</a> •
     <a href="#how-to-run">How to Run</a>
   </p>
 
   ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-  ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 </div>
 
 ---
 
 ## 📖 About The Project
 
-**Smile School** is a web development project that focuses on implementing a design from a Figma file into a fully functional, responsive webpage. The goal was to create a pixel-perfect replica using only **HTML5** and **CSS3**, without relying on frameworks like Bootstrap.
+**Headphones** is a responsive landing page project developed as part of the ALX HTML & CSS curriculum. The main objective was to build a visually engaging webpage using advanced CSS techniques and Vanilla JavaScript, ensuring it is responsive across all devices without relying on external frameworks like Bootstrap.
 
-The project features a modern layout using **Flexbox**, custom fonts (Google Fonts), and interactive hover effects.
+The project highlights the use of **CSS Shapes** (Pentagons), **Custom Animations**, and a **JavaScript-powered Hamburger Menu**.
 
-### Key Features
-* ✨ **Responsive Design:** Looks great on desktops, tablets, and mobile devices.
-* 🎨 **Modern Layout:** Built entirely using CSS Flexbox for structure.
-* 🖌️ **Pixel Perfect:** Meticulously styled to match the provided Figma design.
-* 🎭 **Interactive Elements:** Smooth hover effects on buttons, cards, and navigation links.
-* ✒️ **Custom Typography:** Integrated Google Fonts (*Coiny* & *Source Sans Pro*).
+---
+
+## ✨ Key Features
+
+* 📱 **Fully Responsive:** Fluid design that adapts seamlessly from desktop to mobile screens.
+* 🍔 **Hamburger Menu:** A custom sidebar navigation for mobile devices, built with Vanilla JS.
+* 🎨 **CSS Art:** The "Our Results" section features pentagons drawn entirely using CSS `clip-path` (no images used).
+* 🎭 **Interactive Animations:** * Smooth hover effects on cards and buttons.
+    * Bouncing and rotating animations for the pentagons.
+    * Icon scaling effects in the "What we do" section.
+* ✒️ **Custom Typography:** Integration of local fonts (*Spin Cycle OT*) alongside Google Fonts (*Source Sans Pro*).
+* 🛠️ **Clean Code:** Semantic HTML5 and organized CSS3 with variables.
 
 ---
 
 ## 🛠 Technologies Used
 
 * **HTML5**: Semantic structure of the webpage.
-* **CSS3**: Advanced styling, gradients, flexbox layout, and media queries.
-* **FontAwesome**: For social media icons and rating stars.
-* **Google Fonts**: Typography.
+* **CSS3**: Flexbox, Media Queries, CSS Variables, Transitions, Transforms, and Clip-path.
+* **JavaScript (ES6)**: DOM manipulation for the mobile menu toggle.
+* **Icon Fonts**: Custom Holberton School icon set.
 
 ---
 
@@ -49,39 +57,28 @@ You can view this project locally on your machine.
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/HusseinIslamEagle/alx_html_css/tree/main/css_advanced](https://github.com/HusseinIslamEagle/alx_html_css/tree/main/css_advanced)
+    git clone [https://github.com/HusseinIslamEagle/alx_html_css.git](https://github.com/HusseinIslamEagle/alx_html_css.git)
     ```
 
 2.  **Navigate to the project directory**
     ```bash
-    cd smile-school
+    cd alx_html_css/headphones
     ```
 
-3.  **Open `index.html`**
-    * Simply double-click the `index.html` file to open it in your default browser.
+3.  **Open the file**
+    * Simply double-click the `8-index.html` (or `7-index.html`) file to open it in your default browser.
     * OR use a Live Server extension in VS Code.
-
----
-
-## 🎨 Design Source
-
-This project is based on a design provided by Holberton School.
-* **Figma File:** [Link to Figma](https://www.figma.com/proto/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=3558-0&p=f&t=rPKVAkBs8ZjFbcES-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
 
 ---
 
 ## 👤 Author
 
-**Your Name**
-* Github: (https://github.com/HusseinIslamEagle)
-* LinkedIn: (https://www.linkedin.com/in/husseinahmedabdelaziz/)
+**Hussein Ahmed Abdelaziz**
+* Github: [HusseinIslamEagle](https://github.com/HusseinIslamEagle)
+* LinkedIn: [husseinahmedabdelaziz](https://www.linkedin.com/in/husseinahmedabdelaziz/)
 
 ---
 
 <div align="center">
-  <small>Made with ❤️ and a lot of ☕</small>
+  <small>Made with ❤️ and a lot of ☕ during the ALX Program</small>
 </div>
-
-
-
-
